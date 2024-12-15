@@ -12,8 +12,7 @@ public class HistorianHysteriaPuzzle {
         /**
          * === Part 1 ===
          */
-        List<String> allValuesList = readFileInList(
-            "file_path");
+        List<String> allValuesList = readFileInList(".\\day1\\txt_input.txt");
 
         List<Integer> column1 = getColumn1Values(allValuesList);
         List<Integer> column2 = getColumn2Values(allValuesList);
